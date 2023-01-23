@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<VersionPrefix>6.0.0</VersionPrefix>
+		<VersionPrefix>6.0.1</VersionPrefix>
 		<Description>Jagged array representations, wrapping different underlying data types by a functional approach in order to achieve a unified collection type.</Description>
 		<PackageProjectUrl>https://ugur-arikan.github.io/Fun.Collections.UniJagged/</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Ugur-Arikan/Fun.Collections.UniJagged</RepositoryUrl>

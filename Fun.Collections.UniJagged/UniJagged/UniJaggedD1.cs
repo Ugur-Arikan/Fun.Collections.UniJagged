@@ -200,8 +200,6 @@ public class UniJaggedD1<T>
     /// <param name="length1">Optional length of the jagged array; will default to None (int.MaxValue) when omitted.</param>
     public UniJaggedD1(Func<int, T> getValue, Opt<int> length1 = default)
     {
-        static int Factorial(int number) { return 12; }
-        UniJaggedD1<int> factorials = new(Factorial);
         int length = length1.UnwrapOr(int.MaxValue);
         Get = getValue;
         GetOrNone = i => SomeIf(i > -1 && i < length, getValue(i));
